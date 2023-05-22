@@ -51,7 +51,7 @@ h5{
 
 .sect1{
     min-height:100vh;
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,0.8)),url(./images/Robot.JPG) center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,0.8)),url(./images/bus5.jpg) center/cover no-repeat;
     background-attachment:fixed;
 }
 .sect1 p{
@@ -112,6 +112,176 @@ h5{
     font-style:normal;
     font-weight:400;
 }
+
+
+
+footer{
+    height: 100vh;
+    width:100vw;
+}
+.half1{
+    height: 100vh;
+    background-color:orange;
+    filter:opacity(.8);
+    padding:40px;
+}
+.half2{
+    height: 100vh;
+    background-color: black;
+    filter:opacity(.8);
+}
+footer .half{
+    display:flex;
+    overflow:hidden;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(./images/build2.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    
+}
+
+form .in1, .in2{
+    display:flex;
+    flex-direction: row;
+}
+
+.half2 p{
+    color:orange;
+    text-transform:uppercase;
+    display:flex;
+    font-size:2em;
+    padding:40px 0px;
+    /* font-weight:bold; */
+    justify-content: center;
+}
+.half2{
+    padding:75px;
+}
+.sect1, .sect2{
+    /* display:none; */
+}
+form{
+    color:orange;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+
+}
+input::placeholder{
+    /* color:red; */
+    text-transform:uppercase;
+}
+input{
+    border:.5px solid orange;
+    background-color: rgba(0, 0, 0, .0);
+    height:40px;
+    width:100%;
+    padding:10px;
+    color:white;
+    /* width:20px; */
+}
+textarea{
+    border:1px solid orange;
+    background-color: rgba(0, 0, 0, .0);
+    width:100%;
+    padding:10px;
+    color:white;
+}
+form button{
+    color:black;
+    background-color: orange;
+    border:none;
+    /* width:clamp(2px, 30cqw, 535px); */
+    width:100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: medium;
+    /* margin-bottom:200px; */
+}
+form button:hover{
+    filter:brightness(.5);
+    cursor:pointer;
+}
+.copy{
+    background-color:black;
+    color:grey;
+    text-align: center;
+    font-size:.8em;
+    padding:2px;
+    width: 100%;
+    position: absolute;
+    /* line-height: 200vh; */
+    /* position:absolute; */
+    /* position:fixed; */
+    /* bottom:0; */
+    /* left:0; */
+    /* margin-top:20px; */
+}
+.half1 .flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+    /* padding:2px; */
+    gap:clamp(0em, 3cqw, 10em);
+    /* overflow:hidden; */
+    border-bottom:1px solid black;
+
+}
+/* .half1{p} */
+.flex div{
+    display:flex;
+    flex-direction: column;
+}
+.flex p{
+    border:10px solid black;
+    padding:35px;
+    border-radius:10px;
+    text-transform: capitalize;
+}
+.flex div a{
+    text-decoration: none;
+    color:black;
+    text-transform: capitalize;
+    line-height:3em;
+    width:100px;
+    text-align: center;
+    transition:all .4s linear;
+    
+}
+.flex div a:hover{
+    color:orange;
+    background-color:black;
+    transition:all .4s linear;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+    
+    
+}
+.flex2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+    line-height: 2.5em;
+    /* gap:clamp(2em, 5cqw, 10em); */
+    border-bottom:1px solid black;
+
+}
+.solutions{
+    width:200px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size:1.3em;
+}
+.flex2 i{
+    padding:3px;
+}
+
 
 
 @keyframes animate{
@@ -322,10 +492,22 @@ h5{
 
 @media(max-width:768px) {
     
+    footer .half{
+        /* display:block; */
+        flex-direction:column;
+    }
+    .copy{
+        margin-top:100vh;
+    }
     
 
 }
 @media (min-width:768px){
+    footer .half1, .half2{
+        width:50vw;
+    }
     
 }
 
+@media (min-width:1150px){
+}
