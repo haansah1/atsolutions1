@@ -20,9 +20,10 @@ body{
     padding:30px;
 }
 .at{
-    width:clamp(2px, 10cqi, 80px);
+    /* width:clamp(2px, 10cqi, 80px); */
     margin-left:clamp(0px, 10cqi, 1000px);
     transition:all .4s linear;
+    width:6vw;
     
 }
 .at:hover{
@@ -244,9 +245,9 @@ ul{
     justify-content: center;
     align-items: center;
     min-height:65vh;
-    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)),url(./images/book1\ \(1\).jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,.78), rgba(0,0,0,.78)),url(./images/book1\ \(1\).jpg) center/cover no-repeat;
     background-attachment:fixed;
-    padding:0px 15vw;
+    padding:40px 12vw;
     line-height:2em;
     text-align:center;
     /* border-bottom:1px solid white; */
@@ -254,7 +255,7 @@ ul{
 }
 .conc{
     font-size:2em;
-    padding-bottom:50px;
+    padding-bottom:40px;
 }
 .orange1{
     color:orange;
@@ -654,6 +655,12 @@ form button:hover{
     .part1 .img1{
     background-attachment: fixed;
     
+    }
+    .at{
+        width:15vw;
+    }
+    .lorem{
+        margin-top:10vh;
     }
 
     
