@@ -80,6 +80,7 @@ h5{
     text-align:center;
     /* padding-top:clamp(150px, 20cqi, 150px); */
     padding-top:20vh;
+    
 }
 .dot{
     color:orange;
@@ -140,8 +141,6 @@ h5{
     transition:all .3s linear;
     font-size:1.5em;
     text-transform:capitalize;
-    
-
 }
 
 .art2 a{
@@ -151,7 +150,6 @@ h5{
 }
 .activ{
     animation: art2 1s linear;
-    /* background-color:orange; */
 }
 .art2 .one:hover{
     background-color: orange;
@@ -220,6 +218,10 @@ h5{
 .art4 p{
     padding:60px;
     color:gray;
+    
+}
+.art4 .p2{
+    line-height:1.8em;
 }
 
 .art5 .btn1{
@@ -261,6 +263,8 @@ h5{
     align-items: center;
     background-color: rgba(211, 211, 211, 0.3);
     transition:all .3s linear;
+    line-height:1.75em;
+    /* color:white; */
 }
 .art6 .ans1:hover{
     /* filter:brightness(.2); */

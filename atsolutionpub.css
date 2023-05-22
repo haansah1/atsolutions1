@@ -69,7 +69,8 @@ h5{
 .btn{
     justify-content:center;
     text-align:center;
-    padding-top:clamp(150px, 20cqi, 150px);
+    /* padding-top:clamp(150px, 20cqi, 150px); */
+    padding-top:20vh;
 }
 .dot{
     color:orange;
