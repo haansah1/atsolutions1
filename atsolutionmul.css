@@ -70,7 +70,6 @@ h5{
 .btn{
     justify-content:center;
     text-align:center;
-    /* padding-top:clamp(150px, 20cqi, 150px); */
     padding-top:20vh;
 }
 .dot{
@@ -115,7 +114,35 @@ h5{
     font-weight:400;
 }
 .sect2{
-    height:100vh;
+    /* height:300vh; */
+}
+
+.gallery div:nth-child(1){
+    grid-column:1/3;
+    /* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,0.0)),url(./images/chu1\ \(1\).jpg) center/cover no-repeat; */
+}
+.gallery div:nth-child(2){
+    grid-row:1/3;
+    grid-column:3/4;
+    /* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,0.0)),url(./images/chu2.jpg) center/cover no-repeat; */
+}
+.gallery div:nth-child(3){
+    /* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,0.0)),url(./images/chu3.jpg) center/cover no-repeat; */
+    grid-row:2/4;
+}
+.gallery div:nth-child(4){
+    /* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,0.0)),url(./images/chu4.jpg) center/cover no-repeat; */
+}
+.gallery div:nth-child(5){
+    /* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,0.0)),url(./images/chu5.jpg) center/cover no-repeat; */
+    grid-column:2/4;
+}
+.gallery div:nth-child(6){
+    /* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,0.0)),url(./images/chu1\ \(2\).jpg) center/cover no-repeat; */
+    grid-column:1/3;
+}
+.gallery div:nth-child(7){
+    /* background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,0.0)),url(./images/chu1\ \(3\).jpg) center/cover no-repeat; */
 }
 .topic{
     color:grey;
@@ -128,6 +155,173 @@ h5{
     margin:20px 10vw;
     
 
+}
+.part1{
+    display:flex;
+    /* flex-direction:column; */
+    /* flex-wrap: wrap; */
+    /* width:100vw; */
+
+}
+
+.part1 .gallery div img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    
+}
+.part1 .gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1em;
+    /* min-width:200px; */
+    /* padding:2vw; */
+}
+.cam{
+    font-size:2em;
+    /* color:grey; */
+    padding:20px;
+    margin:30px;
+    /* border:1px solid black; */
+    border-radius:30px;
+}
+.cam i{
+    margin:0px 20px;
+    padding:0px 0px 15px 0px;
+    /* text-decoration:underline; */
+    border-bottom:5px solid black;
+    transition:all .3s linear;
+}
+.cam i:hover{
+    border-bottom:5px solid orange;
+    transition:all .3s linear;
+    cursor:pointer;
+}
+
+.content{
+    padding:5vw;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, .1);
+
+}
+
+.welc{
+    /* background-color: white; */
+    padding:30px 20px;
+    background-color: orange;
+    /* color:white; */
+    font-size:1.1em;
+    font-family:cursive;
+    line-height:1.8em;
+    word-spacing:5px;
+    box-shadow:1px 1px 4px black;
+    border-radius:10px;
+}
+.enlarge{
+    font-size:3em;
+    font-weight:bolder;
+    font-style: normal;
+}
+.orange1{
+    font-style: normal;
+    color:white;
+    font-weight:bold;
+    
+}
+.case{
+    padding:35px 5vw;
+    text-align:center;
+    background-color: rgba(128, 128, 128, .3);
+    margin-top:40px;
+    font-size:clamp(1em, 2cqi, 1.4em);
+    /* font-size:1.4em; */
+    line-height:1.8em;
+    outline: 10px solid black;
+    outline-offset:-30px ;
+    outline-style: dashed;
+}
+ul{
+    background-color: white;
+    padding:20px 20px 20px 20px;
+    margin:40px 10px;
+    /* color:black; */
+    line-height:1.8em;
+    
+}
+ul li{
+    list-style-image: url(./images/gear1.png);
+    padding-bottom:25px;
+}
+
+.responsive{
+    text-align:center;
+    border:1px solid orange;
+    padding: 20px 20px;
+    margin:70px 50px 40px 50px;
+    background-color: orange;
+    border-radius:10px;
+}
+.res-cont{
+    display:flex;
+    width:100vw;
+    padding:0vh 1vw ;
+    margin:0px 0px 10vh 0px;
+    background-color: rgba(128, 128, 128, .09);
+    /* flex-direction: column; */
+}
+.gallery1{
+    width:65vw;
+    float:left;
+}
+.content1{
+    width:35vw;
+    padding:20px;
+    justify-content: center;
+    display:flex;
+    flex-direction:column;
+    line-height: 2em;
+}
+.content1 div{
+    display:flex;
+    padding-bottom:40px;
+}
+.content1 i{
+    font-style: normal;
+    /* float:right; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:20px;
+}
+.res-cont div{
+    /* width:50%; */
+}
+.res-cont div img{
+    width:100%;
+    float:right;
+}
+.part3{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:65vh;
+    background: linear-gradient(rgba(0,0,0,.78), rgba(0,0,0,.78)),url(./images/cam2.jpg) center/cover no-repeat;
+    background-attachment:fixed;
+    padding:40px 12vw;
+    line-height:2em;
+    text-align:center;
+}
+.conc{
+    font-size:2em;
+    padding-bottom:40px;
+}
+.orange2{
+    color:orange;
 }
 footer{
     height: 100vh;
@@ -149,7 +343,6 @@ footer .half{
     overflow:hidden;
     background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(./images/build2.jpg) center/cover no-repeat;
     background-attachment: fixed;
-    
 }
 
 form .in1, .in2{
@@ -220,7 +413,7 @@ form button:hover{
     background-color:black;
     color:grey;
     text-align: center;
-    font-size:.8em;
+    font-size:.6em;
     padding:2px;
     width: 100%;
     position: absolute;
@@ -507,7 +700,6 @@ form button:hover{
 @media(max-width:768px) {
     
     footer .half{
-        /* display:block; */
         flex-direction:column;
     }
     .copy{
@@ -519,13 +711,38 @@ form button:hover{
     .lorem{
         margin-top:10vh;
     }
-    
-
 }
 @media (min-width:768px){
     footer .half1, .half2{
         width:50vw;
     }
-    
+}
+
+@media (max-width:1146px){
+    .part1{
+        flex-direction:column;
+    }
+    .part1 .gallery{
+        margin:0vw 20vw;
+    }
+    .res-cont{
+        flex-direction: column;
+
+    }
+    .gallery1, .content1{
+        width:100%;
+        padding:0px 20px; 
+    }
+
+}
+@media (min-width:1146px){
+    .part1 .gallery, .content{
+        width:50vw;
+    }
+}
+@media (max-width:600px){
+    .part1 .gallery{
+        margin:0vw 5vw;
+    }
 }
 
