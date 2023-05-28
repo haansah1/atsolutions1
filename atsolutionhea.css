@@ -114,8 +114,223 @@ h5{
     font-style:normal;
     font-weight:400;
 }
+.topic{
+    color:grey;
+    text-align:center;
+    font-size:clamp(1.8em, 4cqi, 2.5em);
+    padding:60px 20px;
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:lighter;
+    margin:20px 10vw;
+}
 
+.medicine{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:2em;
+}
+.medcont{
+    width:350px;
+}
 
+.image-area img{
+    object-fit: contain;
+    object-position:center;
+    width:100%;
+    height:100%;
+}
+.image-area{
+    height:350px;
+    overflow: hidden;
+}
+.med-cont{
+    background-color: rgba(128, 128, 128, .3);
+    padding:10px;
+    font-size:.8em;
+    display:flex;
+    border-top-right-radius: 10px;
+}
+.drug{
+    text-align:center;
+    padding:0px 5px 5px 5px;
+    text-transform: capitalize;
+    font-weight:700;
+    display:flex;
+    justify-content: center;
+    position:relative;
+}
+.drug div{
+    text-align: right;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.drug p{
+    /* position: absolute; */
+}
+.presc{
+    display:flex;
+    font-size:.8em;
+    justify-content: center;
+    align-items: center;
+    gap:1.5em;
+    padding:5px 0px 10px 0px;
+}
+.presc .p{
+    border-right:1px solid grey;
+    border-radius:5px;
+    /* width:300% */
+}
+.buy{
+    text-align:center;
+    padding:10px 0px;
+}
+.buy a{
+    text-decoration:none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* border:1px solid orange; */
+    border-radius:3px;
+    box-shadow:1px 1px 3px black;
+    
+    padding:5px 35px 5px 35px;
+    transition:background linear.4s;
+    /* background-color: rgb(17, 254, 17); */
+    text-transform: uppercase;
+    background-color:black;
+    color:white;
+}
+
+.buy a:hover{
+    background-color: orange;
+    /* color:black; */
+    color: black;
+    transition:background linear.4s;
+    /* border:2px solid black; */
+}
+.welcome{
+    padding:0px 10vw;
+    color:grey;
+    line-height:2em;
+    font-size:1.1em;
+    text-align: center;
+}
+.welcome i{
+    font-size:2em;
+    color:orange;
+    padding-bottom:20px;
+}
+.arrow{
+    margin:50px 10vw;
+    padding:30px;
+    /* color:grey; */
+    border:1px solid orange;
+    background-color: orange;
+    line-height:2em;
+    font-size:1em;
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    outline:2px solid white;
+    outline-offset: -5px;
+    border-radius:20px;
+    box-shadow:1px 1px 4px black;
+}
+.arrow i{
+    /* color:orange; */
+    font-size:2em;
+    padding:30px;
+}
+.light{
+    padding:0px 5vw;
+    color:grey;
+    line-height:2em;
+    /* font-size:1.1em; */
+    text-align: center;
+    
+    
+    
+}
+.illustration p{
+    text-align:center;
+    color:black;
+    border:2px solid orange;
+    padding:10px 20px;
+    margin:50px 0px;
+    /* width:300px; */
+}
+.illustration{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.illustration i{
+    color:orange;
+}
+.light p{
+    box-shadow:1px 1px 4px black;
+    padding:20px;
+    text-align: left;
+    border-radius: 15px;
+}
+.light p i{
+    /* font-size:1em; */
+}
+.light .i{
+    font-size:3em;
+    color:orange;
+    padding-bottom:50px;
+    
+    /* box-shadow:1px 1px 4px black; */
+}
+.art{
+    display:flex;
+    margin:100px 5vw;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.art1{
+    border:1px solid orange;
+    padding:40px;
+    color:grey;
+    width:500px;
+    line-height:2em;
+    outline:1px solid orange;
+    outline-offset: -10px;
+}
+.art2{
+    background-color: orange;
+    padding:40px;
+    width:500px;
+    line-height:2em;
+    outline:1px solid black;
+    outline-offset: -10px;
+}
+.part3{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:65vh;
+    background: linear-gradient(rgba(0,0,0,.78), rgba(0,0,0,.78)),url(./images/pharm21.jpg) center/cover no-repeat;
+    background-attachment:fixed;
+    padding:40px 12vw;
+    line-height:2em;
+    text-align:center;
+}
+.conc{
+    font-size:2em;
+    padding-bottom:40px;
+}
+.orange2{
+    color:orange;
+}
 
 footer{
     height: 100vh;
