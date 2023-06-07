@@ -131,9 +131,10 @@
                         <p>+233 59 035 231</p>
                         <i class="fas fa-message"></i>
                         <p>+233 50 736 3108</p>
-
                     </div>
-                    
+                </div>
+                <div class="line4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63404.26812995888!2d-1.6233879342923745!3d6.67579409110498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb9461ea6fb9af%3A0xb0da4f6d9c4b361f!2sKwame%20Nkrumah%20University%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sgh!4v1686074315305!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div class="part2">
@@ -149,22 +150,22 @@
                     Fields marked with * are required. The form will not be sent unless mandatory fields are completed. For areas that are not relevant to your enquiry, please enter NA.
                 </div>
                 <div class="line4">
-                    <form action="">
-                        <p class="info">Your Name <em>*</em></p>
-                        <input type="text" placeholder="Eg. Robert Ansah " name="" id="">
-                        <p class="info">Position within the Company <em>*</em></p>
-                        <input type="text" placeholder="Eg. Proprietor / CEO / Director" name="" id="">
+                    <form action="https://formspree.io/f/mvonjvyd" method="POST">
+                        <p class="info">Your Full Name <em>*</em></p>
+                        <input type="text" placeholder="Eg. Robert Ansah " name="Name" id="" required>
+                        <p class="info">Position within the Company</p>
+                        <input type="text" placeholder="Eg. Proprietor / CEO / Director" name="Position within the Company" id="">
                         <p class="info">Your Email <em>*</em></p>
-                        <input type="email" name="" placeholder="Eg. atsolutions00@gmail.com" id="">
-                        <p class="info">Main Contact Phone Number <em>*</em></p>
-                        <input type="number" placeholder="Eg. +233 50 736 3108" name="" id="">
+                        <input type="email" name="Email" placeholder="Eg. atsolutions00@gmail.com" id="" required>
+                        <p class="info">Main Phone Contact <em>*</em></p>
+                        <input type="number" placeholder="Eg. +233 50 736 3108" value="+233" name="Main Phone Contac" id="" required >
                         <p class="info">Company Name <em>*</em></p>
-                        <input type="text" name="" placeholder="Eg. Owusu's Boutique" id="">
-                        <p class="info">Website address(URL) <em>*</em></p>
+                        <input type="text" name="Company Name" placeholder="Eg. Owusu's Boutique" id="" required>
+                        <p class="info">Website address(URL) </p>
                         <input type="url" placeholder="Eg. klassicseriespublications.com" name="" id="">
-                        <p class="info">Primary Location(nearest city)<em>*</em></p>
+                        <p class="info">Primary Location(nearest city)</p>
                         <input type="text" placeholder="Eg. Bomso - Kumasi" name="" id="">
-                        <p class="info">My business/organisation needs support with...<em>*</em></p>
+                        <p class="info">My business/organisation needs support with...</p>
                         <p class="short">A short outline of you project..... <br>
                         Is it a business website, academic website, health website, multimedia website, publishing website? <br>Provide us with a short overview. 
                         </p>
@@ -220,11 +221,11 @@
                 <div>
                     <p>get in touch</p> 
                 </div>
-                <form action="" class="form">
-                    <input type="text" placeholder="your name " class="in1" name="" id="">
-                    <input type="email" name="" placeholder="your email" id="" class="in2" >
-                    <input type="text" placeholder="subject" name="" id="">
-                    <textarea name="" id="" cols="50" rows="10" placeholder="MESSAGE" ></textarea>
+                <form action="https://formspree.io/f/mvonjvyd" method="POST" class="form">
+                    <input type="text" placeholder="your name " class="in1" name="name" id="" required>
+                    <input type="email" name="email" placeholder="your email" id="" class="in2" required>
+                    <input type="text" placeholder="subject" name="subject" id="" required>
+                    <textarea name="message" id="" cols="50" rows="10" placeholder="MESSAGE"  ></textarea>
                     <button type="submit">send</button>
                 </form>
             </div>
