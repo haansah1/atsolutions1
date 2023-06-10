@@ -147,6 +147,7 @@ h5{
     gap:2em;
 
 }
+
 .img1{
     /* height:100vh; */
     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url(./images/im6.jpg) center/cover no-repeat;
@@ -281,6 +282,10 @@ footer{
     height: 100vh;
     background-color: black;
     filter:opacity(.8);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 footer .half{
     display:flex;
@@ -685,3 +690,28 @@ form button:hover{
     
 }
 
+@media (max-width:380px){
+    .half2{
+        padding:35px;
+    }
+}
+@media (max-width:300px){
+    .flex p{
+        border:5px solid black;
+        padding:12px;
+    }
+    .flex div a{
+        width:85px;
+    }
+}
+
+
+@media (min-height:1025px){
+    .body{
+        display:flex;
+        height:60vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

@@ -60,7 +60,7 @@ h5{
 
 .sect1{
     min-height:100vh;
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(./images/build2.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)),url(./images/build9.jpg) center/cover no-repeat;
     background-attachment:fixed;
 }
 .sect1 p{
@@ -300,6 +300,10 @@ footer{
     height: 100vh;
     background-color: black;
     filter:opacity(.8);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 footer .half{
     display:flex;
@@ -707,3 +711,28 @@ form button:hover{
 @media (min-width:1150px){
 }
 
+
+@media (max-width:380px){
+    .half2{
+        padding:35px;
+    }
+}
+@media (max-width:300px){
+    .flex p{
+        border:5px solid black;
+        padding:12px;
+    }
+    .flex div a{
+        width:85px;
+    }
+}
+
+@media (min-height:1025px){
+    .body{
+        display:flex;
+        height:60vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

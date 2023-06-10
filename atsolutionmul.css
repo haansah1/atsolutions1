@@ -179,14 +179,12 @@ h5{
 }
 .cam{
     font-size:2em;
-    /* color:grey; */
     padding:20px;
     margin:30px;
-    /* border:1px solid black; */
     border-radius:30px;
 }
 .cam i{
-    margin:0px 20px;
+    margin:0px 13px;
     padding:0px 0px 15px 0px;
     /* text-decoration:underline; */
     border-bottom:5px solid black;
@@ -290,15 +288,12 @@ ul li{
 }
 .content1 i{
     font-style: normal;
-    /* float:right; */
     display:flex;
     justify-content: center;
     align-items: center;
     padding-right:20px;
 }
-.res-cont div{
-    /* width:50%; */
-}
+
 .res-cont div img{
     width:100%;
     float:right;
@@ -337,6 +332,10 @@ footer{
     height: 100vh;
     background-color: black;
     filter:opacity(.8);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 footer .half{
     display:flex;
@@ -356,15 +355,12 @@ form .in1, .in2{
     display:flex;
     font-size:2em;
     padding:40px 0px;
-    /* font-weight:bold; */
     justify-content: center;
 }
 .half2{
     padding:75px;
 }
-.sect1, .sect2{
-    /* display:none; */
-}
+
 form{
     color:orange;
     display:flex;
@@ -375,7 +371,6 @@ form{
 
 }
 input::placeholder{
-    /* color:red; */
     text-transform:uppercase;
 }
 input{
@@ -385,7 +380,6 @@ input{
     width:100%;
     padding:10px;
     color:white;
-    /* width:20px; */
 }
 textarea{
     border:1px solid orange;
@@ -398,12 +392,10 @@ form button{
     color:black;
     background-color: orange;
     border:none;
-    /* width:clamp(2px, 30cqw, 535px); */
     width:100%;
     padding: 10px;
     text-transform: uppercase;
     font-size: medium;
-    /* margin-bottom:200px; */
 }
 form button:hover{
     filter:brightness(.5);
@@ -417,21 +409,13 @@ form button:hover{
     padding:2px;
     width: 100%;
     position: absolute;
-    /* line-height: 200vh; */
-    /* position:absolute; */
-    /* position:fixed; */
-    /* bottom:0; */
-    /* left:0; */
-    /* margin-top:20px; */
 }
 .half1 .flex{
     display:flex;
     justify-content: center;
     align-items: center;
     height:50%;
-    /* padding:2px; */
     gap:clamp(0em, 3cqw, 10em);
-    /* overflow:hidden; */
     border-bottom:1px solid black;
 
 }
@@ -462,9 +446,6 @@ form button:hover{
     transition:all .4s linear;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    
-    
-    
 }
 .flex2{
     display:flex;
@@ -473,7 +454,6 @@ form button:hover{
     align-items: center;
     height:50%;
     line-height: 2.5em;
-    /* gap:clamp(2em, 5cqw, 10em); */
     border-bottom:1px solid black;
 
 }
@@ -746,3 +726,27 @@ form button:hover{
     }
 }
 
+@media (max-width:380px){
+    .half2{
+        padding:35px;
+    }
+}
+@media (max-width:300px){
+    .flex p{
+        border:5px solid black;
+        padding:12px;
+    }
+    .flex div a{
+        width:85px;
+    }
+}
+
+@media (min-height:1025px){
+    .body{
+        display:flex;
+        height:60vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

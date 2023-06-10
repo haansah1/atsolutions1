@@ -160,8 +160,10 @@ span{
 .ans1{
     line-height:2.0em;
     color:rgb(95, 86, 86);
-    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, .3);
     padding:30px 20px;
+    display: flex;
+    align-items: center;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -173,6 +175,8 @@ span{
 }
 .art2 .part1{
     font-size:clamp(.8em, 5cqi, 1em);
+    /* overflow:hidden; */
+    min-width:300px;
 }
 .art2 .part1 div{
     margin:20px 20px;
@@ -254,6 +258,14 @@ span{
     font-weight: lighter;
     color:lightseagreen
 }
+.part1 .line4 {
+    display:flex;
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items:center; */
+    /* position:absolute; */
+}
+
 em{
     color:red;
     font-style:normal;
@@ -294,6 +306,10 @@ footer{
     height: 100vh;
     background-color: black;
     filter:opacity(.8);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 footer .half{
     display:flex;
@@ -696,4 +712,29 @@ footer form button:hover{
         width:50vw;
     }
     
+}
+
+@media (max-width:380px){
+    .half2{
+        padding:35px;
+    }
+}
+@media (max-width:300px){
+    .flex p{
+        border:5px solid black;
+        padding:12px;
+    }
+    .flex div a{
+        width:85px;
+    }
+}
+
+@media (min-height:1025px){
+    .body{
+        display:flex;
+        height:60vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
