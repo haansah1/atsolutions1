@@ -267,6 +267,36 @@ h5{
     justify-content: center;
 }
 
+.info2{
+    margin-bottom:50px;
+}
+
+.part4{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:65vh;
+    background: linear-gradient(rgba(0,0,0,.78), rgba(0,0,0,.78)),url(./images/bus3.jpg) center/cover no-repeat;
+    background-attachment:fixed;
+    padding:40px 12vw;
+    line-height:2em;
+    text-align:center;
+}
+.conc{
+    font-size:2em;
+    padding-bottom:40px;
+}
+.orange1{
+    color:orange;
+}
+
+
+
+
+
+
 
 footer{
     height: 100vh;
@@ -306,7 +336,6 @@ form .in1, .in2{
     display:flex;
     font-size:2em;
     padding:40px 0px;
-    /* font-weight:bold; */
     justify-content: center;
 }
 .half2{
@@ -325,7 +354,6 @@ form{
 
 }
 input::placeholder{
-    /* color:red; */
     text-transform:uppercase;
 }
 input{
@@ -335,7 +363,6 @@ input{
     width:100%;
     padding:10px;
     color:white;
-    /* width:20px; */
 }
 textarea{
     border:1px solid orange;
@@ -348,12 +375,10 @@ form button{
     color:black;
     background-color: orange;
     border:none;
-    /* width:clamp(2px, 30cqw, 535px); */
     width:100%;
     padding: 10px;
     text-transform: uppercase;
     font-size: medium;
-    /* margin-bottom:200px; */
 }
 form button:hover{
     filter:brightness(.5);
@@ -367,21 +392,13 @@ form button:hover{
     padding:2px;
     width: 100%;
     position: absolute;
-    /* line-height: 200vh; */
-    /* position:absolute; */
-    /* position:fixed; */
-    /* bottom:0; */
-    /* left:0; */
-    /* margin-top:20px; */
 }
 .half1 .flex{
     display:flex;
     justify-content: center;
     align-items: center;
     height:50%;
-    /* padding:2px; */
     gap:clamp(0em, 3cqw, 10em);
-    /* overflow:hidden; */
     border-bottom:1px solid black;
 
 }
@@ -423,7 +440,6 @@ form button:hover{
     align-items: center;
     height:50%;
     line-height: 2.5em;
-    /* gap:clamp(2em, 5cqw, 10em); */
     border-bottom:1px solid black;
 
 }

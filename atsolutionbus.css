@@ -715,7 +715,7 @@ form button:hover{
 @media (max-width:380px){
     .account-data .data2{
         width:90vw;
-        height:100vh;
+        height:120vh;
     }
     .half2{
         padding:35px;
