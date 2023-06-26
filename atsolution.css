@@ -54,6 +54,7 @@ h5{
     /* background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)),url(./images/build9.jpg) center/cover no-repeat; */
     /* background-attachment: fixed; */
     background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)),url(./images/build9.jpg) no-repeat center center transparent;
+    background-attachment:fixed;
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size:cover;
