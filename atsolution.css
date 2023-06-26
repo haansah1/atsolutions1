@@ -8,6 +8,9 @@
 ::-webkit-scrollbar{
     display:none;
 }
+.alert{
+    background-color: blue;
+}
 
 .logo_area{
     color:red;
@@ -48,9 +51,30 @@ h5{
 
 .sect1{
     min-height:100vh;
-    background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)),url(./images/build9.jpg) center/cover no-repeat;
-    background-attachment:fixed;
+    /* background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)),url(./images/build9.jpg) center/cover no-repeat; */
+    /* background-attachment: fixed; */
+    background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)),url(./images/build9.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
 }
+/* .sect1 .img0{
+    object-position: center;
+    object-fit: cover;
+    position:fixed;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+.h{
+    background-size: cover;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;    background-color: rgba(0, 0, 0, .85);
+} */
 .sect1 p{
     color:grey;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
